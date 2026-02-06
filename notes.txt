@@ -1,0 +1,9 @@
+my-app/
+├── models/
+│   └── User.js          <-- The file we just created
+├── config/
+│   └── passport.js      <-- Where your LocalStrategy logic lives
+├── routes/
+│   └── auth.js          <-- Your login/register routes
+├── app.js               <-- Your main entry point
+└── .env
